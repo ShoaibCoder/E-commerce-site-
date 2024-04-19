@@ -156,7 +156,6 @@ const HeroSection = () => {
   </div>
 </div>
 
-
         </SwiperSlide>
         {/* Swiper 3 */}
         <SwiperSlide>
