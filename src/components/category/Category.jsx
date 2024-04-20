@@ -18,7 +18,7 @@ const category = [
         name: 'laptop'
     },
     {
-        image: 'shoe.png',
+        image: 'https://p7.hiclipart.com/preview/624/596/891/nike-free-nike-air-max-sneakers-shoe-red-shoes.jpg',
         name: 'shoes'
     },
     {
