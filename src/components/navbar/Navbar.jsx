@@ -65,7 +65,6 @@ const Navbar = () => {
             <div className="lg:flex lg:justify-between items-center lg:px-3 relative"> 
                 <div className="left flex items-center">
                     <Link to={'/'} className='flex items-center' >
-                        <img src="shoe.png" alt="logo" className='text-white' height={'70px'} width={'70px'}/>
                         <h2 className='font-body text-center font-extrabold text-gray-600 text-2xl pl-3'>FABDEAL</h2>
                     </Link>
                 </div>
