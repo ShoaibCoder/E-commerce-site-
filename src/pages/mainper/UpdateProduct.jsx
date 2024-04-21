@@ -104,7 +104,7 @@ const UpdateProduct = () => {
             <div className='flex justify-center items-center h-screen'>
                 {loading && <Loader />}
                 {/* Login Form  */}
-                <div className="login_Form bg-indigo-50 px-8 py-6 border border-indigo-100 rounded-xl shadow-md">
+                <div className="login_Form bg-indigo-50 px-6 py-6 border border-indigo-100 rounded-xl shadow-md">
 
                     {/* Top Heading  */}
                     <div className="mb-5">
@@ -126,7 +126,7 @@ const UpdateProduct = () => {
                                 })
                             }}
                             placeholder='Product Title'
-                            className='bg-indigo-50 border text-indigo-300 border-indigo-200 px-2 py-2 w-96 rounded-md outline-none placeholder-indigo-300'
+                            className='bg-indigo-50 border text-indigo-300 border-indigo-200 px-2 pr-20 py-2 w-full rounded-md outline-none placeholder-indigo-300'
                         />
                     </div>
 
@@ -143,7 +143,7 @@ const UpdateProduct = () => {
                                 })
                             }}
                             placeholder='Product Price'
-                            className='bg-indigo-50 border text-indigo-300 border-indigo-200 px-2 py-2 w-96 rounded-md outline-none placeholder-indigo-300'
+                            className='bg-indigo-50 border text-indigo-300 border-indigo-200 px-2 py-2 w-full rounded-md outline-none placeholder-indigo-300'
                         />
                     </div>
 
@@ -160,7 +160,7 @@ const UpdateProduct = () => {
                                 })
                             }}
                             placeholder='Product Image Url'
-                            className='bg-indigo-50 border text-indigo-300 border-indigo-200 px-2 py-2 w-96 rounded-md outline-none placeholder-indigo-300'
+                            className='bg-indigo-50 border text-indigo-300 border-indigo-200 px-2 py-2 w-full rounded-md outline-none placeholder-indigo-300'
                         />
                     </div>
 
