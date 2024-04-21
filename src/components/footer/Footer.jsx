@@ -9,7 +9,6 @@ const Footer = () => {
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:max-w-none lg:grid-cols-2">
           <div className="max-w-xl lg:max-w-lg ">
             <div className="flex items-center">
-          <img src="bag.png" alt="" height={'70px'} width={'70px'}/>
           <h2 className='font-body text-center font-extrabold text-gray-600 text-2xl pl-3'>FABDEAL</h2>
           </div>
             <p className="mt-4 text-sm leading-8 text-gray-300">
