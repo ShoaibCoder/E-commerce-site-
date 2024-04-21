@@ -179,7 +179,7 @@ const Cart = () => {
                                     </>
                                     :
 
-                                <img src="cartpage.png" height={'400px'} width={'400px'} alt="" />
+                                <img src="https://www.eyecatchers.in/shop-online/images/cart-empty.jpg" height={'300px'} width={'300px'} alt="" />
                                 
                                     }
                             </ul>
