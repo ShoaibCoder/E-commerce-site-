@@ -11,13 +11,11 @@ import Cart from "./pages/Cart";
 import AllProduct from "./pages/AllProduct";
 import Signup from "./pages/Validation/Signup";
 import Login from "./pages/Validation/Login";
-// import UserDashboard from "./pages/user/UserDashboard";
 import MainPerson from "./pages/mainper/MainPerson";
 import AddProduct from "./pages/mainper/AddProduct";
 import UpdateProduct from "./pages/mainper/UpdateProduct";
 import { Toaster } from "react-hot-toast";
 import MyState from "./context/myState";
-// import { ProtectedRouteForUser } from "./protectedroute/ProtectedRouteForUser";
 import { ProtectedRouteForAdmin } from "./protectedroute/ProtectedRouteForAdmin";
 import CategoryPage from "./pages/category/CategoryPage";
 import Scroll from "./components/scroll.jsx/Scroll";
@@ -38,11 +36,6 @@ const App = () => {
       <Route path="/signup"  element={<Signup/>} />
       <Route path="/login" element={<Login/>} />
       <Route path="/category/:categoryname" element={<CategoryPage/>} />  
-      {/* <Route path="/user-dashboard" element={
-        <ProtectedRouteForUser>
-          <UserDashboard/>
-        </ProtectedRouteForUser>
-      } /> */}
       <Route path="/admin-dashboard" element={
         <ProtectedRouteForAdmin>
           <MainPerson/>
