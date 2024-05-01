@@ -65,7 +65,7 @@ const AddProductPage = () => {
         try {
             const productRef = collection(fireDB, 'products');
             await addDoc(productRef, product)
-            toast.success("Add product successfully");
+            toast.success("Product added successfully");
             navigate('/admin-dashboard')
             setLoading(false)
         } catch (error) {
